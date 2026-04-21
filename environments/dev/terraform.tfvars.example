@@ -1,0 +1,29 @@
+# ==============================================================================
+# Development Environment — Example Variables
+# ==============================================================================
+# Copy this file to terraform.tfvars and fill in your values.
+# NEVER commit terraform.tfvars to version control!
+# ==============================================================================
+
+# project_name       = "aws-infra-platform"
+# aws_region         = "us-east-1"
+# owner              = "your-name"
+
+# --- Networking ---
+# vpc_cidr           = "10.0.0.0/16"
+# availability_zones = ["us-east-1a", "us-east-1b"]
+# admin_cidr_blocks  = ["YOUR.PUBLIC.IP/32"]  # Replace with your actual IP
+
+# --- SSH ---
+# key_name           = "your-key-pair-name"
+
+# --- Database ---
+# db_name            = "appdb"
+# db_username        = "admin"
+# db_password        = "YourSecurePassword123!"  # Use a strong password
+
+# --- IAM ---
+# iam_users          = ["dev-user-1", "dev-user-2", "dev-user-3"]
+# iam_group_name     = "developers"
+# users_in_group     = ["dev-user-1", "dev-user-2"]
+# independent_user   = "dev-user-3"
