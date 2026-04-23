@@ -1,0 +1,17 @@
+# ==============================================================================
+# Staging Environment — Example Variables
+# ==============================================================================
+# Copy this file to terraform.tfvars and fill in your values.
+# NEVER commit terraform.tfvars to version control!
+# ==============================================================================
+
+# project_name       = "aws-infra-platform"
+# aws_region         = "us-east-1"
+# owner              = "your-name"
+# vpc_cidr           = "10.1.0.0/16"
+# availability_zones = ["us-east-1a", "us-east-1b"]
+# admin_cidr_blocks  = ["YOUR.PUBLIC.IP/32"]
+# key_name           = "your-key-pair-name"
+# db_name            = "appdb"
+# db_username        = "admin"
+# db_password        = "YourSecurePassword123!"
