@@ -1,0 +1,22 @@
+# ==============================================================================
+# Production Environment — Example Variables
+# ==============================================================================
+# Copy this file to terraform.tfvars and fill in your values.
+# NEVER commit terraform.tfvars to version control!
+#
+# ⚠️  PRODUCTION CHECKLIST:
+# - admin_cidr_blocks MUST be restricted to your office IP
+# - db_password MUST be a strong, unique password (16+ chars)
+# - Review all settings before applying
+# ==============================================================================
+
+# project_name       = "aws-infra-platform"
+# aws_region         = "us-east-1"
+# owner              = "your-name"
+# vpc_cidr           = "172.16.0.0/16"
+# availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+# admin_cidr_blocks  = ["YOUR.OFFICE.IP/32"]  # ⚠️  NEVER use 0.0.0.0/0 in prod!
+# key_name           = "your-prod-key-pair"
+# db_name            = "appdb"
+# db_username        = "admin"
+# db_password        = "YourVeryStrongProdPassword!2026"
